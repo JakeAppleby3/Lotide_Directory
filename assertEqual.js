@@ -1,8 +1,10 @@
 const assertEqual = function(actual, expected) {
+  let p = 'Passed';
+  let f = 'Failed';
   if (actual == expected) {
-    console.log('passed ✅');
+    console.log(`The function has ${p} ✅`);
   } else {
-    console.log('failed 🔻');
+    console.log(`The function has ${f} 🔻`);
   } 
 };
 
