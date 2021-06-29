@@ -14,7 +14,7 @@ const map = require("./map");
 const countOnly = require("./countOnly");
 const findKeyByValue = require("./findKeyByValue");
 const takeUntil = require("./takeUntil");
-const without = require("without");
+const without = require("./without");
 
 
 
@@ -34,4 +34,5 @@ module.exports = {
   countOnly,
   findKeyByValue,
   takeUntil,
+  without
 };
